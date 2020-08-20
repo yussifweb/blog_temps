@@ -1,0 +1,183 @@
+body {
+background: linear-gradient(45deg, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+
+color: #333333;
+}
+
+.bg-own{
+  background: linear-gradient(150deg, rgba(47,24,68,1) 2%, rgba(67,9,121,1) 40%, rgba(47,23,62,1) 58%, rgba(67,9,121,1) 98%);
+  border-bottom: solid 15px; 
+  border-color: linear-gradient(90deg, rgba(47,24,68,1) 2%, rgba(67,9,121,1) 50%, rgba(47,23,62,1) 98%);
+  border-radius-left: 15px;
+  border-radius-right: 15px; 
+}
+
+.comment{
+  color: #1a1aff;
+  font-family: 'arial';
+  border-bottom: solid 2px #990000;
+}
+.name{
+  color: white;
+}
+
+a.name:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.article-img {
+  height: 150px;
+  width: 150px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+}
+
+.btn-outline-primary{
+	font-size: 10px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.content-section {
+  background: linear-gradient(45deg, rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%);
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.none a{
+  color: #ff0000;
+}
+.none a:hover{
+  color: #428bca;
+  text-decoration: none;
+}
+
+footer{
+    width: 100%;
+}
+
+.foot{
+    text-align: center;
+    color: aqua;
+}
+
+.foot1{
+  margin-left: 5rem;
+}
+
+.foot1 i{
+  font-size: 20px;
+  color: aqua;
+  text-align: center;
+}
+
+
+#social {
+  display: none; /* Hidden by default */
+  }
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of
+the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+
+/* Style the icon bar links */
+.icon-bar a {
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  
+}
+
+.fb {
+  background: #3B5998;
+  color: white;
+  border-radius: 10px; 
+}
+.tw {
+  background: #55ACEE;
+  color: white;
+  border-radius: 10px;
+}
+.li {
+  background: #007bb5;
+  color: white;
+  border-radius: 10px;
+}
+
+.ig {
+  background: #ff670f;
+  color: white;
+  border-radius: 10px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 15px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.pagination-links{
+  margin:30px 0;
+}
+
+.pagination-links strong{
+  padding: 8px 13px;
+  margin:5px;
+  background: #f4f4f4;
+  border: 1px #ccc solid;
+}
+
+a.pagination-link{
+  padding: 8px 13px;
+  margin:5px;
+  background: #f4f4f4;
+  border: 1px #ccc solid;
+}
+
+.cat-delete{
+  display:inline;
+}
